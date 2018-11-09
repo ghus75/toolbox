@@ -1,1 +1,1 @@
-Meterials from the Data Science at Scale course (U of Washington)
+Materials from the Data Science at Scale course (U of Washington)
