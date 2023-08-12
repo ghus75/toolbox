@@ -1,3 +1,3 @@
-# Online courses material
+# Toolbox
 
-All kinds of assignments from various MOOCs carried out in recent years
+All kinds of algorithms and notebooks
