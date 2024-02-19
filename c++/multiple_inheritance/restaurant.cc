@@ -52,7 +52,7 @@ class Ingredient {
              un ProduitCuisine, modifié par la recette: dans ce cas, il faut libérer
              la mémoire allouée par new dans adapter().
                - Si c'est un Produit simple, adapter() ne fait que renvoyer this.
-             donc pas de memoire alloué dynamiquement à libérer. */
+             donc pas de memoire allouée dynamiquement à libérer. */
             if (px != &produit) { delete px; }
 
             return s;
