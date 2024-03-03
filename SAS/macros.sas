@@ -467,6 +467,7 @@ options label;
 
 
 /**** macro var scope *****/
+
 %let X=OutsideMacro; *created in global symbol table;
 %put NOTE: &=X before TEST macro execution.;
 
@@ -478,9 +479,7 @@ options label;
 %test
 %put NOTE: &=X after TEST macro execution.;
 
-/************************************
-* Macro Variable Scope: Practice #5 *
-************************************/
+/**/
 
  /* Section 1: Macro variables created with %LET */
 %macro scope;
@@ -557,7 +556,7 @@ run;
 
 
 
-/* check if error in data step before executing macro*/
+/* check if error in data step before executing macro */
 
 data sports
     set sashelp.cars;
